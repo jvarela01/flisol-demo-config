@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: flisol-demo
+spec:
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: flisol-demo
+    weight: 100
