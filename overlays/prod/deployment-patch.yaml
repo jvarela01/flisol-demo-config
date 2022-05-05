@@ -5,7 +5,7 @@ metadata:
 spec:
   template:
     spec:
+      replicas: 2
       containers:
       - name: flisol-demo
-        replicas: 2
         image: " "
