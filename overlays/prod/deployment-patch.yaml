@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: flisol-demo
 spec:
+  replicas: 2
   template:
     spec:
-      replicas: 2
       containers:
       - name: flisol-demo
         image: " "
