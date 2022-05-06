@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: flisol-demo
-        image: quay.io/jvarela01/flisol-demo:74ae63d86badcf9c624d2b9e1abaa96b5e45a4e8
+        image: quay.io/jvarela01/flisol-demo:latest
